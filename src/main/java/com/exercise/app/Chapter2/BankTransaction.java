@@ -1,4 +1,4 @@
-package com.exercise.app;
+package com.exercise.app.Chapter2;
 
 import java.time.LocalDate;
 import java.util.Objects;

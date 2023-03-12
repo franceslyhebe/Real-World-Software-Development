@@ -1,11 +1,11 @@
-package com.exercise.app;
+package com.exercise.app.Chapter2;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class bankStatementCSVParser {
+public class BankStatementCSVParser {
     private static final DateTimeFormatter DATE_PATTERN = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
     private BankTransaction parseFromCSV(final String line){

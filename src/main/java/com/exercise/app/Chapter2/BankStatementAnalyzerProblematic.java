@@ -1,4 +1,4 @@
-package com.exercise.app;
+package com.exercise.app.Chapter2;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,7 +9,7 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class bankStatementAnalyzerProblematic {
+public class BankStatementAnalyzerProblematic {
     private static final String RESOURCES = "src/main/resources/";
     public static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     public static void main(final String[] args) throws IOException {
